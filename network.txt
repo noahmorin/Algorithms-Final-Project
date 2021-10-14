@@ -1,0 +1,6 @@
+Ottawa Montreal 199 40
+Ottawa Kingston 196 16
+Oshawa Whitby 9 29
+Oshawa Toronto 61 27
+Oshawa Kingston 205 220
+Oshawa Ottawa 5 114
