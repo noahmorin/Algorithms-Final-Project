@@ -5,18 +5,16 @@ program implements Kruskal’s minimum spanning tree algorithm to create a minim
 tree in the network.
 
 Our program begins by taking the input of a file named network.txt which contains the
-raw data for the graph of the network, stored in a text format. This data is taken in through an in
-line for loop that takes node names and their respective values and writes them into a two
-dimensional array. By storing our graph in this data structure, we are able to efficiently store
-edge information and quickly access it through for loop iterations.
+raw data for the network graph, stored in a text format. This data is taken in through an in-line for loop that takes node names and their respective values and writes them into a two-dimensional array. By storing our graph in this data structure, we are able to efficiently store
+edge information and quickly access it through four loop iterations.
 
-From this point the user is presented with a number of optional actions. They can modify
-the graph in a number of ways, such as changing an edge, removing an edge, or removing an
+From this point, the user is presented with several optional actions. They can modify
+the graph in many ways, such as changing an edge, removing an edge, or removing an
 entire node. Should the user decide to update any of the graph’s information, the text file can be
 overwritten to reflect the changes. From this same menu, the user can also choose to print the
 graph, where it will display in a text table format, listing all the relevant edge node names and
-values. There are a number of other options as well, such as the ability to view our academic
-integrity statement, or write any changes made into the file for future use.
+values. There are several other options as well, such as the ability to view our academic
+integrity statement or write any changes made to the file for future use.
 
 When the user decides to run the computational algorithms portion of the program, it will
 begin by entering the BFPrep function, which prepares the graph data to be run through the
